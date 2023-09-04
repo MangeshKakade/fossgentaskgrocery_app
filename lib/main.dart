@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       getPages: routes,
       initialBinding: BindingsBuilder(() {
         Get.put(FruitDetailController());
-        Get.put(LoginController()); // Initialize LoginController
+        Get.put(LoginController());
         Get.put(PhoneNumberLoginController());
         Get.put(LocationController());
         Get.put(CartController());
