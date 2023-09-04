@@ -142,11 +142,11 @@ class _CartScreenState extends State<CartScreen> {
                                     ),
                                   ],
                                 ),
-                                SizedBox(width: 15,),
+                                SizedBox(width: 12,),
                                 Text(
                                   'Total :-\$${(cartItem.item.price! * itemCount).toStringAsFixed(0)}',
                                   style: TextStyle(
-                                    fontSize: 15,
+                                    fontSize: 10,
                                     color: AppColors.Dark,
                                     fontFamily: 'Poppins',
                                   ),
