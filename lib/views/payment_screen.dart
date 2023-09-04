@@ -81,11 +81,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
         paymentMethodSelected[key] = false;
       });
       paymentMethodSelected[method] = true;
-
-      print(paymentMethodSelected);
-
-      print(paymentMethodSelected); // Add this line for debugging
-
+      print(paymentMethodSelected); 
     });
   }
 
@@ -160,6 +156,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
+                      // Handle "Add new" click
                     },
                     child: Text(
                       'Add New',
@@ -233,8 +230,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                 ),
               ),
-
-              SizedBox(height: 30,)
 
             ],
           ),
