@@ -21,7 +21,7 @@ class SliderViewModel extends GetxController {
       image: 'assets/images/sliderImage3.png',
       title: 'Order Fresh Fruit',
       description: 'Green fruit has less harmful pollution in the production process.',
-      buttonText: 'Get Started',
+      buttonText: 'Next',
     ),
   ];
 

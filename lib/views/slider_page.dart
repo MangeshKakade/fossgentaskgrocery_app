@@ -124,7 +124,7 @@ class _SliderPageState extends State<SliderPage> {
                               },
                               child: Obx(
                                     () => Text(
-                                  controller.currentIndex.value < controller.slides.length - 1 ? 'Next' : 'Get Started',
+                                  controller.currentIndex.value < controller.slides.length - 1 ? 'Next' : 'Next',
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: 'Poppins',

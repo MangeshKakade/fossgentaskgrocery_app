@@ -18,12 +18,11 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.only(top: 50,left: 10,right: 10),
         child: Obx(
               () => Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 30,),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -177,6 +176,7 @@ class _HomeState extends State<Home> {
                         child: Stack(
                           children: [
                             Card(
+
                               elevation: 5,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15),
@@ -187,7 +187,7 @@ class _HomeState extends State<Home> {
                                   children: [
                                     Container(
                                       width: 210,
-                                      height: 160,
+                                      height: 150,
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           image: NetworkImage(fruit.image ?? ''),

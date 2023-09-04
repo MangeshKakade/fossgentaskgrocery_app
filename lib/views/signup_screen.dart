@@ -9,22 +9,30 @@ class SignupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center( // Center the content both horizontally and vertically
+      body: Center(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text(
-                'Enter Your Phone Number',
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,fontFamily: 'Poppins',),
+              Row(
+                children: [
+                  Text(
+                    'Enter Your Phone Number',
+                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,fontFamily: 'Poppins',),
+                  ),
+                ],
               ),
               SizedBox(height: 10),
-              Text(
-                'Please enter your phone number to continue.',
-                style: TextStyle(fontSize: 18, color: AppColors.Gray,fontFamily: 'Poppins',),
-                textAlign: TextAlign.center, // Center the text
+              Row(
+                children: [
+                  Text(
+                    'Please enter your phone number to continue.',
+                    style: TextStyle(fontSize: 15, color: AppColors.Gray,fontFamily: 'Poppins',),
+
+                  ),
+                ],
               ),
               SizedBox(height: 30),
               TextField(
