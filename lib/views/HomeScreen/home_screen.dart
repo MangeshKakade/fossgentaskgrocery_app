@@ -34,8 +34,8 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
           currentIndex: controller.selectedIndex.value,
-          selectedItemColor: AppColors.RED, // Selected icon color
-          unselectedItemColor: Color.fromRGBO(255, 182, 193, 1.0), // Unselected icon color
+          selectedItemColor: AppColors.RED,
+          unselectedItemColor: Color.fromRGBO(255, 182, 193, 1.0),
           onTap: controller.onItemTapped,
         ),
       ),

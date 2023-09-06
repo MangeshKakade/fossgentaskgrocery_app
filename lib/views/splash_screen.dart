@@ -20,17 +20,16 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.White, // Set your desired background color
+      backgroundColor: AppColors.White,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Add your app's logo here
             Image.asset(
               'assets/images/cartIcon.png',
-              width: 120, // Adjust the size as needed
+              width: 120,
             ),
-            SizedBox(height: 16), // Add spacing between logo and text
+            SizedBox(height: 16),
             Text(
               'Grocery App',
               style: TextStyle(

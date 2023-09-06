@@ -169,7 +169,7 @@ class _HomeState extends State<Home> {
                     final isLiked = _likedStatus[index] ?? false;
                     return GestureDetector(
                       onTap: () {
-                        homeController.onFruitCardTap(fruit); // Handle card click here
+                        homeController.onFruitCardTap(fruit);
                       },
                       child: Padding(
                         padding: const EdgeInsets.only( left: 20),
@@ -247,10 +247,9 @@ class _HomeState extends State<Home> {
                               child: GestureDetector(
                                 onTap: () {
                                   setState(() {
-                                    // Toggle liked status
                                     _likedStatus[index] = !isLiked;
                                   });
-                                  // Handle like icon click here
+
                                 },
                                 child: Icon(
                                   isLiked
@@ -275,14 +274,13 @@ class _HomeState extends State<Home> {
                   itemBuilder: (BuildContext context, int index) {
                     return null;
 
-                    // Display the list of seasonal fruits
                   },
                 )
                     : Text(
                   'Seasonal data is not available.',
                   style: TextStyle(
                     fontSize: 16,
-                    color: AppColors.Dark, // Change the text color
+                    color: AppColors.Dark,
                   ),
                 )
                     : promotionDataAvailable
@@ -295,7 +293,7 @@ class _HomeState extends State<Home> {
                   'Promotion data is not available.',
                   style: TextStyle(
                     fontSize: 16,
-                    color: AppColors.Dark, // Change the text color
+                    color: AppColors.Dark,
                   ),
                 ),
               ),

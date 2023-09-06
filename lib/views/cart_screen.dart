@@ -45,7 +45,6 @@ class _CartScreenState extends State<CartScreen> {
                 ),
                 IconButton(
                   onPressed: () {
-                    // Add functionality to navigate to the cart screen
                   },
                   icon: Stack(
                     children: [

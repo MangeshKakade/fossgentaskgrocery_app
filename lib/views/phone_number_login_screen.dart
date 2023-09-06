@@ -56,7 +56,7 @@ class PhoneNumberLoginScreen extends GetView<PhoneNumberLoginController> {
                   labelText: 'Enter your phone number',
                   prefixIcon: Icon(Icons.phone_android,color: AppColors.Green,),
                   focusedBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: AppColors.Green), // Set the border color to green
+                    borderSide: BorderSide(color: AppColors.Green),
                     borderRadius: BorderRadius.circular(15),
                   ),
                 ),

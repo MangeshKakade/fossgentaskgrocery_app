@@ -92,7 +92,7 @@ class LoginScreen extends GetView<LoginController> {
       child: Row(
         children: [
           Icon(icon),
-          SizedBox(width: 10), // Adjust the spacing between the icon and text
+          SizedBox(width: 10),
           Expanded(
             child: Center(
               child: Text(

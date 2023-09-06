@@ -135,7 +135,7 @@ class _ProfileState extends State<Profile> {
             width: 40,
             height: 40,
             decoration: BoxDecoration(
-              color: AppColors.Green, // Change this color as needed
+              color: AppColors.Green,
               shape: BoxShape.circle,
             ),
             child: Icon(

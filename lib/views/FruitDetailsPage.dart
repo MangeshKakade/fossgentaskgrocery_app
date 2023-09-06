@@ -233,7 +233,7 @@ class _FruitDetailsPageState extends State<FruitDetailsPage> {
                             ),
                             SizedBox(width: 16),
                             Text(
-                              '$itemCount', // Display the item count
+                              '$itemCount',
                               style: TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
@@ -243,7 +243,7 @@ class _FruitDetailsPageState extends State<FruitDetailsPage> {
                             GestureDetector(
                               onTap: () {
                                 setState(() {
-                                  itemCount++; // Increase item count
+                                  itemCount++;
                                 });
                               },
                               child: Center(
