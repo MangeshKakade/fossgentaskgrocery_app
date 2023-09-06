@@ -81,7 +81,11 @@ class _PaymentScreenState extends State<PaymentScreen> {
         paymentMethodSelected[key] = false;
       });
       paymentMethodSelected[method] = true;
+<<<<<<< HEAD
       print(paymentMethodSelected);
+=======
+      print(paymentMethodSelected); 
+>>>>>>> 1edcf199fd6ccb3662528d98b7ba6aebef964f64
     });
   }
 
