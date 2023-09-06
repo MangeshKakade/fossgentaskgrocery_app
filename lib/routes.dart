@@ -16,10 +16,10 @@ var routes = [
   GetPage(name: '/otp', page: () => OTPScreen()),
   GetPage(name: '/login', page: () => LoginScreen()),
   GetPage(name: '/phone-number-login', page: () => PhoneNumberLoginScreen()),
-  GetPage(name: '/location', page: () => LocationScreen()), // Add this line
-  GetPage(name: '/home', page: () => HomeScreen()), // Create HomeScreen and add it here
-  GetPage(name: '/fruit_details', page: () => FruitDetailsPage()), // Create FruitDetailsPage and add it here
-  GetPage(name: '/cart', page: () => CartScreen()), // Add CartScreen route
+  GetPage(name: '/location', page: () => LocationScreen()), 
+  GetPage(name: '/home', page: () => HomeScreen()), 
+  GetPage(name: '/fruit_details', page: () => FruitDetailsPage()),
+  GetPage(name: '/cart', page: () => CartScreen()), 
   GetPage(name: '/slider', page: () => SliderPage()),
 
 ];
